@@ -1,0 +1,67 @@
+oracle:
+      jqky:
+            user : ZZPT2019
+            pwd : ZZPT2019
+            ip : 10.166.7.130
+            db : orcl
+            jqlk_data_sql: "
+                SELECT
+                '身份证号' card_type,
+                F_IDCARD card_num,
+                to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time,
+                '景区旅客' data_source,
+                '旅游景区' behavior,
+                F_UNIT_CODE device_id,
+                '' pic1,
+                '' pic2,
+                '' pic3,
+                to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time
+                FROM
+                BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER 
+                where  F_INPUT_DATE>=to_date(substr('%s',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('%s',0,19),'yyyy-mm-dd HH24:MI:SS')"
+            jqlk_max_sql: "select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER"
+
+            kydp_data_sql: "
+                SELECT
+                '身份证号' card_type,
+                F_PASSENGERIDCARD card_num,
+                F_BUYTIME col_time,
+                '客运订票' data_source,
+                '客运订票' behavior,
+                F_STATIONID device_id,
+                '' pic1,
+                '' pic2,
+                '' pic3,
+                to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time
+                FROM
+                BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION 
+                where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('%s',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('%s',0,19),'yyyy-mm-dd HH24:MI:SS')"
+            kydp_max_sql: "select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION"
+
+      zcxx:
+            user: jgjlbsj
+            pwd: jgjlbsj*2018
+            ip: 10.166.7.130
+            db: orcl
+            data_sql: "
+                select 
+                '身份证号',
+                f_idcardnumber card_num,
+                to_char(f_effectivetime,'yyyy-MM-dd HH24:MI:SS') col_time,
+                '租车信息' data_source,
+                '租车信息' behavior,
+                A.f_unitid device_id,
+                '' pic1,
+                '' pic2,
+                '' pic3,
+                to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time
+                from 
+                (
+                        select f_customerid,f_effectivetime,f_unitid from RENTALCARUSER.V_JLB_CAR_RENTAL_AGREEMENT
+                        where  F_INPUT_DATE>=to_date(substr('%s',0,19),'yyyy-mm-dd HH24:MI:SS') and
+                        F_INPUT_DATE<to_date(substr('%s',0,19),'yyyy-mm-dd HH24:MI:SS') and f_effectivetime is not null
+                )A 
+                inner join RENTALCARUSER.V_JLB_CAR_CUSTOMERINFO B
+                on A.f_customerid=B.f_id"
+            max_sql: "select MAX(F_INPUT_DATE) maxtime from RENTALCARUSER.V_JLB_CAR_RENTAL_AGREEMENT"
+         

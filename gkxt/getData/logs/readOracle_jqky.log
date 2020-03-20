@@ -1,0 +1,656 @@
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 14:30:54',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 14:30:54',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 14:16:14',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 14:34:55',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:35
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 14:30:54',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 14:30:54',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 14:34:55',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 14:36:07',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:1
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 14:30:54',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 14:38:17',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:11
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 14:36:07',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 14:37:24',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:7
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 14:38:17',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 14:39:30',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:6
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 14:37:24',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 14:38:29',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:1
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 14:39:30',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 14:39:30',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 14:38:29',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 14:38:29',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 14:39:30',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 14:39:30',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 14:38:29',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 14:40:33',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:1
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 14:39:30',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 14:43:44',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:9
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 14:40:33',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 14:42:24',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:2
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 14:43:44',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 14:44:10',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:1
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 14:42:24',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 14:42:24',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 14:44:10',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 14:44:10',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 14:42:24',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 14:44:55',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:1
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 14:44:10',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 14:44:10',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 14:44:55',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 14:44:55',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 14:44:10',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 14:44:10',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 14:44:55',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 14:46:38',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:1
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 14:44:10',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 14:44:10',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 14:46:38',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 14:47:28',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:1
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 14:44:10',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 14:44:10',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 14:47:28',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 14:48:29',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:1
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 14:44:10',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 14:50:31',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:1
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 14:48:29',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 14:50:47',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:4
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 14:50:31',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 14:50:31',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 14:50:47',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 14:51:52',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:2
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 14:50:31',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 14:50:31',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 14:51:52',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 14:52:46',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:4
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 14:50:31',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 14:50:31',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 14:52:46',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 14:54:13',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:2
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 14:50:31',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 14:50:31',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 14:54:13',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 14:54:13',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 14:50:31',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 14:57:26',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:25
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 14:54:13',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 14:56:22',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:4
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 14:57:26',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 14:57:42',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:7
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 14:56:22',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 14:57:22',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:2
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 14:57:42',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 14:57:42',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 14:57:22',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 14:59:06',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:1
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 14:57:42',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 14:57:42',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 14:59:06',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 14:59:39',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:1
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 14:57:42',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 14:57:42',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 14:59:39',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:00:09',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:3
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 14:57:42',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 14:57:42',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 15:00:09',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:01:25',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:3
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 14:57:42',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 14:57:42',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 15:01:25',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:02:35',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:2
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 14:57:42',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 14:57:42',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 15:02:35',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:03:35',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:1
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 14:57:42',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 14:57:42',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 15:03:35',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:04:55',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:1
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 14:57:42',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:06:33',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:1
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 15:04:55',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:06:55',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:2
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 15:06:33',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:08:19',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:3
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 15:06:55',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:07:34',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:3
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 15:08:19',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:08:19',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 15:07:34',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:08:17',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:5
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 15:08:19',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:10:47',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:4
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 15:08:17',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:09:42',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:1
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 15:10:47',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:11:58',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:1
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 15:09:42',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:11:09',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:2
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 15:11:58',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:11:58',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 15:11:09',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:11:58',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:1
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 15:11:58',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:14:39',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:2
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 15:11:58',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:12:44',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:1
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 15:14:39',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:14:39',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 15:12:44',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:14:38',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:3
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 15:14:39',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:14:39',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 15:14:38',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:15:14',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:1
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 15:14:39',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:16:31',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:1
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 15:15:14',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:15:14',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 15:16:31',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:16:31',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 15:15:14',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:18:08',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:1
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 15:16:31',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:16:31',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 15:18:08',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:19:30',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:2
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 15:16:31',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:16:31',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 15:19:30',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:19:39',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:1
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 15:16:31',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:16:31',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 15:19:39',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:21:43',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:5
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 15:16:31',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:16:31',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 15:21:43',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:22:32',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:1
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 15:16:31',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:24:20',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:1
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 15:22:32',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:23:15',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:1
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 15:24:20',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:24:20',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 15:23:15',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:24:51',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:2
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 15:24:20',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:24:20',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 15:24:51',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:24:51',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 15:24:20',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:24:20',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 15:24:51',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:26:16',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:1
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 15:24:20',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:28:29',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:1
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 15:26:16',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:28:15',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:7
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 15:28:29',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:28:29',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 15:28:15',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:29:19',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:3
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 15:28:29',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:30:42',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:14
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 15:29:19',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:30:04',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:1
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 15:30:42',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:30:42',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 15:30:04',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:31:53',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:1
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 15:30:42',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:30:42',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 15:31:53',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:31:53',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 15:30:42',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:34:48',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:1
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 15:31:53',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:33:25',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:1
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 15:34:48',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:34:48',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 15:33:25',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:34:59',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:3
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 15:34:48',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:36:18',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:1
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 15:34:59',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:34:59',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 15:36:18',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:36:18',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 15:34:59',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:37:19',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:4
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 15:36:18',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:36:18',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 15:37:19',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:37:19',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 15:36:18',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:36:18',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 15:37:19',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:37:19',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 15:36:18',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:36:18',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 15:37:19',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:37:19',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 15:36:18',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:42:13',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:1
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 15:37:19',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:41:44',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:3
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 15:42:13',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:42:13',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 15:41:44',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:41:44',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 15:42:13',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:42:13',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 15:41:44',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:41:44',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 15:42:13',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:42:13',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 15:41:44',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:41:44',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 15:42:13',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:42:13',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 15:41:44',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:45:51',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:2
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 15:42:13',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:47:45',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:1
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 15:45:51',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:47:32',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:2
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 15:47:45',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:47:45',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 15:47:32',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:47:32',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 15:47:45',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:47:45',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 15:47:32',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:47:32',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 15:47:45',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:47:45',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 15:47:32',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:50:38',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:3
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 15:47:45',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:51:53',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:1
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 15:50:38',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:51:51',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:1
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 15:51:53',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:51:53',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 15:51:51',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:52:40',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:4
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 15:51:53',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:51:53',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 15:52:40',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:52:40',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 15:51:53',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:51:53',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 15:52:40',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:52:40',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 15:51:53',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:56:47',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:2
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 15:52:40',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:56:50',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:1
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 15:56:47',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:56:47',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 15:56:50',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:57:37',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:1
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 15:56:47',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:59:08',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:1
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 15:57:37',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:59:21',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:6
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 15:59:08',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:59:08',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 15:59:21',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 16:00:32',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:3
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 15:59:08',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:59:08',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 16:00:32',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 16:01:14',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:1
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 15:59:08',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 15:59:08',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 16:01:14',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 16:01:14',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 15:59:08',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 16:03:34',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:1
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 16:01:14',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 16:03:04',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:1
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 16:03:34',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 16:03:34',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 16:03:04',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 16:04:52',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:1
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 16:03:34',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 16:03:34',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 16:04:52',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 16:06:11',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:4
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 16:03:34',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 16:03:34',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 16:06:11',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 16:07:01',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:2
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 16:03:34',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 16:03:34',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 16:07:01',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 16:08:05',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:1
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 16:03:34',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 16:03:34',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 16:08:05',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 16:08:45',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:1
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 16:03:34',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 16:03:34',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 16:08:45',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 16:10:39',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:8
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 16:03:34',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 16:03:34',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 16:10:39',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 16:10:51',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:2
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 16:03:34',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 16:03:34',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 16:10:51',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 16:12:10',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:1
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 16:03:34',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 16:14:11',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:2
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 16:12:10',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 16:14:24',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:1
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 16:14:11',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 16:15:32',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:2
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 16:14:24',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 16:14:24',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 16:15:32',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 16:15:32',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 16:14:24',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 16:14:24',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 16:15:32',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 16:15:32',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 16:14:24',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 16:14:24',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 16:15:32',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 16:15:32',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 16:14:24',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 16:14:24',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 16:15:32',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 16:15:32',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 16:14:24',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 16:14:24',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 16:15:32',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 16:15:32',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 16:14:24',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 16:14:24',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 16:15:32',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 16:15:32',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 16:14:24',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 16:21:17',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:1
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 16:15:32',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 16:15:32',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 16:21:17',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 16:23:07',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:6
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 16:15:32',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 16:15:32',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 16:23:07',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 16:24:11',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:3
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 16:15:32',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 16:15:32',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 16:24:11',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 16:25:31',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:2
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 16:15:32',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 16:15:32',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 16:25:31',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 16:25:31',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 16:15:32',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 16:15:32',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 16:25:31',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 16:27:10',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:1
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 16:15:32',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 16:15:32',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 16:27:10',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 16:27:58',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:1
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 16:15:32',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 16:15:32',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 16:27:58',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 16:29:05',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:1
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 16:15:32',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 16:15:32',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 16:29:05',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 16:30:37',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:3
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 16:15:32',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 16:32:23',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:1
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 16:30:37',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 16:32:03',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:2
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 16:32:23',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 16:33:09',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:2
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 16:32:03',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 16:33:03',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:2
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 16:33:09',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 16:33:09',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 16:33:03',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 16:34:19',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:2
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 16:33:09',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 16:35:50',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:2
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 16:34:19',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 16:35:27',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:1
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 16:35:50',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 16:35:50',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 16:35:27',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 16:36:25',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:3
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 16:35:50',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 16:35:50',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 16:36:25',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 16:36:25',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER where  F_INPUT_DATE>=to_date(substr('2019-05-17 16:35:50',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 16:35:50',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:0
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION
+ SELECT '身份证号' card_type, F_PASSENGERIDCARD card_num, F_BUYTIME col_time, '客运订票' data_source, '客运订票' behavior, F_STATIONID device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-MM-dd HH24:MI:SS') etl_time FROM BUSINESSPLATFORMUSER.V_ZZPASSENGERSTATION where length(F_PASSENGERIDCARD)>=15 and F_INPUT_DATE>=to_date(substr('2019-05-17 16:36:25',0,19),'yyyy-mm-dd HH24:MI:SS') and F_INPUT_DATE<to_date(substr('2019-05-17 16:38:27',0,19),'yyyy-mm-dd HH24:MI:SS')
+数据条数:1
+select MAX(F_INPUT_DATE) maxtime from BUSINESSPLATFORMUSER.V_ZZSCENIC_PASSENGER
+ SELECT '身份证号' card_type, F_IDCARD card_num, to_char(F_INPUT_DATE,'yyyy-MM-dd HH24:MI:SS') col_time, '景区旅客' data_source, '旅游景区' behavior, F_UNIT_CODE device_id, '' pic1, '' pic2, '' pic3, to_char(sysdate,'yyyy-

@@ -1,0 +1,120 @@
+spark:
+   schedule: 20
+
+mysql:
+   user: root
+   password: bbi!zmkj0520
+   url: jdbc:mysql://86.1.41.98:3306/controls?characterEncoding=UTF-8&useSSL=False
+   list_url: mysql+mysqldb://root:bbi!zmkj0520@86.1.41.98:3306/controls?charset=utf8
+   #最后一次位置所在的mysql表
+   last_place_tb: dw_keyperson_last_place
+   alarm_info_tb: emergency_info
+   touch_freq_tb: touch_frequency
+   #更新触境频次表
+   touch_freq_sql: "
+        update touch_frequency A
+        inner join 
+        (
+            select control_id,plan_id,target_id,idcard,set_num,count(1) touch_num 
+            from touch_frequency_temp 
+            group by control_id,plan_id,target_id
+        ) B
+        on A.control_id=B.control_id and A.plan_id=B.plan_id and A.target_id=B.target_id and A.idcard=B.idcard
+        set A.set_num=B.set_num,
+        A.touch_num=A.touch_num+B.touch_num,
+        A.etl_date=SYSDATE(),A.state=0
+        where A.plan_id=9 and substr(SYSDATE(),1,10)>substr(A.etl_date,1,10);
+        update touch_frequency A
+        inner join 
+        (
+            select control_id,plan_id,target_id,idcard,set_num,count(1) touch_num 
+            from touch_frequency_temp 
+            group by control_id,plan_id,target_id
+        ) B
+        on A.control_id=B.control_id and A.plan_id=B.plan_id and A.target_id=B.target_id and A.idcard=B.idcard
+        set A.set_num=B.set_num,
+        A.touch_num=A.touch_num+B.touch_num,
+        A.etl_date=SYSDATE(),A.state=0
+        where A.plan_id!=9;
+        insert into touch_frequency(control_id,plan_id,target_id,set_num,touch_num,idcard,etl_date,state)
+        select control_id,plan_id,target_id,set_num,count(1) touch_num,idcard,SYSDATE(),0
+        from touch_frequency_temp 
+        where (control_id,plan_id,target_id,idcard) not in (select control_id,plan_id,target_id,idcard from touch_frequency)
+        group by control_id,plan_id,target_id,idcard;
+        truncate table touch_frequency_temp;
+        "
+   
+   touch_frequuency_sql: "
+        select control_id,plan_id,target_id,touch_num,set_num,idcard,etl_date
+        from touch_frequency
+        where state = 0
+        "
+
+   alarm_update_sql: "
+        insert into emergency_info(emergency_date,device_id,object_business_code,plan_target_id,person_idcard_num,leader_state,emergency_source,emergency_reason,policeman_state,lon,lat,plan_id,control_id,emergency_location,emergency_grade,city,city_code,district,district_code,create_user,create_time,update_user,update_time,is_delete,trail_source)
+        select A.emergency_date,A.device_id,A.object_business_code,A.plan_target_id,A.person_idcard_num,A.leader_state,A.emergency_source,A.emergency_reason,A.policeman_state,A.lon,A.lat,A.plan_id,A.control_id,A.emergency_location,A.emergency_grade,A.city,A.city_code,A.district,A.district_code,A.create_user,A.create_time,A.update_user,A.update_time,A.is_delete,A.trail_source
+        from emergency_info_tmp A
+        where (control_id,plan_id,plan_target_id,person_idcard_num,emergency_date,emergency_location)
+not in (select control_id,plan_id,plan_target_id,person_idcard_num,emergency_date,emergency_location from emergency_info);"
+
+   #重点人的布控规则
+   control_sql: "
+        SELECT distinct
+        trim(a.id) as control_id,
+        a.name AS control_name,
+        trim(b.plan_id) as prog_id,
+        f.object_name AS name,
+        f.duty_organ,
+        i.value person_type,
+        trim(d.id) as target_id ,
+        trim(f.object_business_code) AS idcard,
+        lp.pre_dev_code last_device_id,
+        lp.pre_col_time last_col_time,
+        a.policeman AS police,
+        e.id control_prog_id,
+        e.plan_name AS control_prog,
+        d.name AS prog_target,
+        b.parameter_list AS prog_rule,
+        d.type as target_type,
+        d.devices AS target_json,
+        a.start_time,
+        a.end_time,
+        if(a.policeman is null,'1','2') leader_state,
+        a.emergency_grade,
+        a.create_user,
+        a.create_time,
+        a.update_user,
+        a.update_time,
+        a.is_delete
+        FROM control_info a
+        LEFT JOIN control_plan_record_info b ON a.id=b.control_id
+        LEFT JOIN plan_target_relation c ON b.id=c.record_id
+        LEFT JOIN plan_target d ON c.target_id=d.id
+        LEFT JOIN control_plan_config e ON b.plan_id=e.id
+        LEFT JOIN object_info f ON a.object_id=f.id
+        left join object_type_relation h
+        on f.id=h.object_id
+        left join (select code,value from dictionary_config where type_code='person_type' ) i
+        on h.object_type_id=i.code
+        left join dw_keyperson_last_place lp
+        on f.object_business_code=lp.idcard
+        where  a.control_state=2 and b.parameter_list is not null and d.id is not null and e.plan_name is not null  and instr(b.parameter_list,'value')>1 and f.object_business_code='352510198901234562'"
+
+kafka:
+   broker_list: 86.1.42.20:9092
+   group_id: test_relatime_group1
+   #数据源口topic
+   from_topic: realtime_track_test
+
+#人员轨迹存储
+es:
+   index: person_track
+   type: person_track
+   nodes: 10.166.114.151,10.166.114.160
+   port: 9200
+
+#kafka offset存储
+redis:
+   host: 86.1.42.20
+   port: 6372
+   pass: Ynza@redis
